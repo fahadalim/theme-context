@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import {Navbar} from "./components/navbar";
+import {ThemeContext, ThemeContextProvider} from "./contexts/Themecontext";
+import { useContext } from 'react';
+import {Body} from "./styles"
 
 function App() {
+  // const {isTheme,handleChange} = useContext(ThemeContext)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <Navbar></Navbar>
+      {/* <div className='body' >khgdhasdasd</div> */}
+      <Body></Body>
     </div>
+
   );
 }
 
