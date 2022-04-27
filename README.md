@@ -1,3 +1,5 @@
+Its a toggle theme function changes theme of the page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
